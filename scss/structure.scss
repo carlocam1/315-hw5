@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 16px;
+}
+
+#app {
+    margin: 0 auto;
+    margin-top: 50px;
+    max-width: 890px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* background-color: cadetblue; */
+}
+
+.game-holder {
+    width: 150px;
+    margin-bottom: 30px;
+    border-bottom: solid 2px orangered;
+    font-family: VirtualRotRegular;
+    
+}
+
+.brief-rating {
+    font-size: 9px;
+}
+
+.brief-des {
+    margin-bottom: 10px;
+}
+
+.site-container {
+    margin: 0 auto;
+    max-width: 1250px;
+    min-height: 600px;
+    /* background-color: aqua; */
+}
+
+.hero-container {
+    max-width: 100%;
+    min-height: 400px;
+    /* background-color: beige; */
+    padding-top: 100px;
+
+}
+
+.hero-image {
+    width: 100%;
+    min-height: 400px;
+    /* background-color: cadetblue; */
+    background-image: url(../images/hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.callout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+    height: 200px;
+    /* background-color: blueviolet; */
+    font-size: 35px;
+    font-family: ModernWarfare;
+    color: white;
+    text-align: center;
+}
+
+@font-face {
+    font-family: VirtualRotRegular;
+    src: url(../css/fonts/VirtualRotRegular.ttf);
+}
+
+@font-face {
+    font-family: ModernWarfare;
+    src: url(../css/fonts/ModernWarfare.ttf);
+}
